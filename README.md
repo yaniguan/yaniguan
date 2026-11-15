@@ -4,15 +4,11 @@
 
 <p align="center"><b>I build AI that already knows the laws of physics, and I make it train fast.</b></p>
 
-<p align="center"><sub>Ph.D. at UCLA, done December 2026 &nbsp;·&nbsp; small biomolecules, catalysts, semiconductors, interfaces &nbsp;·&nbsp; quantum to device scale</sub></p>
+<p align="center"><sub>Ph.D. @ UCLA '26 &nbsp;·&nbsp; equivariant pretraining &nbsp;·&nbsp; post-training &nbsp;·&nbsp; GPU training</sub></p>
 
 <br>
 
-I pretrain equivariant foundation models on molecules and materials, and I care just as much about the hardware: training pipelines on A100, H100 and H200, profiled with Nsight and tuned down to FP8. Lately: post-training, alignment, and multimodal models for science.
-
-<sub>Math: linear algebra, group and representation theory, probability and statistics, optimization. Physics: quantum mechanics, statistical mechanics, electrochemistry, transport.</sub>
-
-<br>
+<div align="center">
 
 <table>
   <tr>
@@ -22,12 +18,12 @@ I pretrain equivariant foundation models on molecules and materials, and I care 
   </tr>
 </table>
 
-<br>
-
-<img src="assets/posttrain.svg" width="18" align="top"> **On post-training.** SFT and DPO learn from the textbook; on-policy RL (PPO, GRPO) leaves it and learns from its own rollouts. And when DPO pushed preference accuracy to 90–97% but dropped exact match on 331 journal figures from 59.8% to 0–2%, I kept SFT.
-
-<img src="assets/road.svg" width="18" align="top"> <img src="assets/paw.svg" width="18" align="top"> <img src="assets/camera.svg" width="18" align="top"> <img src="assets/book.svg" width="18" align="top"> &nbsp;Off the clock: long empty roads, my dog running the back seat, two Canons, and more things in heaven and earth than any loss function.
+</div>
 
 <br>
 
-<img src="assets/home.svg" width="18" align="top"> [yaniguan.github.io](https://yaniguan.github.io)
+<p align="center"><sub>SFT → DPO → PPO · GRPO &nbsp;&nbsp;|&nbsp;&nbsp; A100 · H100 · H200 · Nsight &nbsp;&nbsp;|&nbsp;&nbsp; linear algebra · group theory · statistics · stat mech</sub></p>
+
+<p align="center"><img src="assets/road.svg" width="16"> <img src="assets/paw.svg" width="16"> <img src="assets/camera.svg" width="16"> <img src="assets/book.svg" width="16"><br><sub>long drives · my dog · two Canons · Shakespeare</sub></p>
+
+<p align="center"><a href="https://yaniguan.github.io"><img src="assets/home.svg" width="16"> yaniguan.github.io</a></p>
