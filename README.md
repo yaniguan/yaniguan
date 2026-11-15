@@ -2,13 +2,17 @@
   <img src="assets/header.svg" width="560" alt="Text, drawings and atoms flowing into one symmetry-aware model; the same molecule comes out, just held three different ways">
 </p>
 
-### Hi, I'm Yani. I teach neural networks that a molecule doesn't care which way you hold it.
+### Hi, I'm Yani. I build AI that respects physics, and I make it train fast.
 
-Rotate a water molecule and it's still water. Mirror a drug molecule and you may have a different drug. Most models have to learn that the hard way. I build ones that know it from the start, then I do the GPU work so they actually train fast.
+Rotate a water molecule and it's still water. Flip the sign on an electrode and the interface tells a different story. Most models have to learn the rules of nature the hard way. I build ones that know them from the start: molecules, materials, electrochemical interfaces, and the dynamics in between.
 
 I'm a Ph.D. candidate in computational chemistry at UCLA (done December 2026). These days I'm drawn to LLM/VLM pretraining, post-training, alignment, and multimodal models for science.
 
-<img src="assets/multiscale.svg" width="18" align="top"> I came up through multi-scale modeling of electrochemical interfaces (DFT → MD → kMC → P2D), so I'm at home on both ends of the stack: irreps, Clebsch–Gordan and equivariance on one side; GPU kernels, rooflines, FP8, cuEquivariance, torch.compile and post-training pipelines on the other.
+<img src="assets/multiscale.svg" width="18" align="top"> **Scientist by training.** A chemical engineering Ph.D. spent on multi-scale modeling of electrochemical systems (DFT → MD → kMC → P2D → 3D simulation). Irreps, Clebsch–Gordan and spherical harmonics are my everyday tools.
+
+<img src="assets/gpu.svg" width="18" align="top"> **Engineer by habit.** I build and tune GPU training pipelines on A100, H100 and H200. I profile with Nsight, read rooflines, and reach for FP8, cuEquivariance and torch.compile when a model is slower than it should be.
+
+<img src="assets/posttrain.svg" width="18" align="top"> **Post-training, the big picture.** Offline SFT and DPO teach a model from the textbook. But under SFT, small errors pile up once the model runs on its own. On-policy RL (PPO, GRPO) fixes that with rollouts: the model leaves the textbook, tries things itself, and learns from what actually happens. A lot like life.
 
 #### The cast
 
