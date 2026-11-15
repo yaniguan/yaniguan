@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="assets/header.svg" width="780" alt="Interfaces, surfaces, small molecules and crystals, from DFT to device scale, feed many kinds of input into one symmetry-aware core. Out come SMILES, argon MD frames, a molecule that stays the same however it is turned, and a vote that flags wrong structures. Underneath: pretraining, SFT, DPO and on-policy RL, running on A100, H100 and H200 GPUs.">
+  <img src="assets/header.svg" width="780" alt="Small biomolecules, catalyst surfaces, crystals and interfaces, from quantum to device scale, feed many kinds of input into one symmetry-aware core. Out come SMILES, argon MD frames, a molecule that stays the same however it is turned, and a vote that flags wrong structures. Underneath: pretraining, SFT, DPO and on-policy RL, running on A100, H100 and H200 GPUs.">
 </p>
 
 <p align="center"><b>I build AI that already knows the laws of physics, and I make it train fast.</b></p>
 
-<p align="center"><sub>Ph.D. at UCLA, done December 2026 &nbsp;·&nbsp; molecules, materials, electrochemical interfaces &nbsp;·&nbsp; DFT → MD → kMC → P2D → 3D</sub></p>
+<p align="center"><sub>Ph.D. at UCLA, done December 2026 &nbsp;·&nbsp; small biomolecules, catalysts, semiconductors, interfaces &nbsp;·&nbsp; quantum to device scale</sub></p>
 
 <br>
 
-I pretrain equivariant foundation models for molecules and electrolytes, and I care just as much about the hardware: training pipelines on A100, H100 and H200, profiled with Nsight and tuned down to FP8. Lately: post-training, alignment, and multimodal models for science.
+I pretrain equivariant foundation models on molecules and materials, and I care just as much about the hardware: training pipelines on A100, H100 and H200, profiled with Nsight and tuned down to FP8. Lately: post-training, alignment, and multimodal models for science.
 
 <br>
 
@@ -16,7 +16,7 @@ I pretrain equivariant foundation models for molecules and electrolytes, and I c
   <tr><th colspan="3" align="left"><sub>SEE &nbsp;·&nbsp; read the world as it is drawn</sub></th></tr>
   <tr>
     <td><img src="assets/ouroboros.svg" width="22"> <a href="https://github.com/yaniguan/ouroboros-ocsr"><b>ouroboros-ocsr</b></a></td>
-    <td>Picture → SMILES. A C<sub>N</sub> steerable encoder that handles rotations but not mirrors, because a mirror flips stereocenters.</td>
+    <td>Molecule images from papers → SMILES. A C<sub>N</sub> steerable encoder that handles rotations but not mirrors, because a mirror flips stereocenters.</td>
     <td align="right"><b>54.0%</b><br><sub>exact match, 298 real figures</sub></td>
   </tr>
   <tr>
@@ -32,13 +32,13 @@ I pretrain equivariant foundation models for molecules and electrolytes, and I c
   </tr>
   <tr>
     <td><img src="assets/ylm.svg" width="22"> <a href="https://github.com/yaniguan/YLM"><b>YLM</b></a></td>
-    <td>A language model that reads 3D. Text attends to l ≥ 1 irreps via Clebsch–Gordan, so forces and handedness survive rotation.</td>
+    <td>A language model that reads 3D. Text attends to l ≥ 1 irreps via Clebsch–Gordan, so direction and chirality survive rotation.</td>
     <td align="right"><b>&lt; 1e-9</b><br><sub>equivariance error, fp64</sub></td>
   </tr>
   <tr><th colspan="3" align="left"><sub>TRAIN &nbsp;·&nbsp; make it learn, make it run fast</sub></th></tr>
   <tr>
     <td><img src="assets/labbench.svg" width="22"> <a href="https://github.com/yaniguan/labbench-posttrain"><b>labbench-posttrain</b></a></td>
-    <td>LAB-Bench evals and RL environments from lab protocols, with verifiable rewards and an audit for reward cheating.</td>
+    <td>LAB-Bench biology evals and RL environments built from wet-lab protocols, with verifiable rewards and an audit for reward cheating.</td>
     <td align="right"><b>49,139</b><br><sub>records, 20 sources</sub></td>
   </tr>
   <tr>
