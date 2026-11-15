@@ -23,7 +23,7 @@
 
 <br>
 
-<p align="center"><sub>SFT → DPO → PPO · GRPO &nbsp;&nbsp;|&nbsp;&nbsp; A100 · H100 · H200 · Nsight &nbsp;&nbsp;|&nbsp;&nbsp; linear algebra · group theory · statistics · stat mech</sub></p>
+<p align="center"><sub>SFT → DPO → GRPO &nbsp;&nbsp;|&nbsp;&nbsp; A100 · H100 · H200 · Nsight &nbsp;&nbsp;|&nbsp;&nbsp; linear algebra · group theory · statistics · stat mech</sub></p>
 
 <p align="center"><img src="assets/road.svg" width="16"> <img src="assets/paw.svg" width="16"> <img src="assets/camera.svg" width="16"> <img src="assets/book.svg" width="16"><br><sub>long drives · my dog · two Canons · Shakespeare</sub></p>
 
