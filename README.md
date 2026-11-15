@@ -27,4 +27,10 @@
 
 <p align="center"><img src="assets/road.svg" width="16"> <img src="assets/paw.svg" width="16"> <img src="assets/camera.svg" width="16"> <img src="assets/book.svg" width="16"><br><sub>long drives · my dog · two Canons · Shakespeare</sub></p>
 
-<p align="center"><a href="https://yaniguan.github.io"><img src="assets/home.svg" width="16"> yaniguan.github.io</a></p>
+<p align="center">
+  <a href="https://yaniguan.github.io"><img src="https://img.shields.io/badge/Homepage-30363d?style=flat-square&logo=googlehome&logoColor=white" alt="Homepage"></a>
+  <a href="https://scholar.google.com/citations?user=eb_DB84AAAAJ&hl=en"><img src="https://img.shields.io/badge/Google%20Scholar-30363d?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
+  <a href="https://www.linkedin.com/in/yaniguan"><img src="https://img.shields.io/badge/LinkedIn-30363d?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://huggingface.co/yaniguan"><img src="https://img.shields.io/badge/Hugging%20Face-30363d?style=flat-square&logo=huggingface&logoColor=white" alt="Hugging Face"></a>
+  <a href="https://www.youtube.com/channel/UCw0_ASuCQS4jrs21iHaBhoA"><img src="https://img.shields.io/badge/YouTube-30363d?style=flat-square&logo=youtube&logoColor=white" alt="YouTube"></a>
+</p>
