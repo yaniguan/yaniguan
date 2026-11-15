@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 380" width="880" height="380" fill="none" stroke="#8b949e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-<title>Interfaces, surfaces, molecules and crystals, many kinds of input, one symmetry-aware core, outputs that stay true under rotation, all trained from pretraining to on-policy RL on GPUs</title>
+<title>Physics from DFT to full cells, many kinds of input, one symmetry-aware core, outputs that stay true under rotation, all trained from pretraining to on-policy RL on GPUs</title>
 <style>.l{font:10px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e;stroke:none}.h{font-size:9px;letter-spacing:1.5px;opacity:.75}.s{stroke-width:1.1}.f{stroke-width:1}.d{stroke-dasharray:2 5;animation:flow 6s linear infinite}.g{opacity:.55}@keyframes flow{to{stroke-dashoffset:-70}}@media (prefers-reduced-motion:reduce){.d{animation:none}}</style>
-<rect x="56" y="24" width="10" height="40" rx="1"/>
-<path class="f" d="M58 32l6 -6"/>
-<path class="f" d="M58 40l6 -6"/>
-<path class="f" d="M58 48l6 -6"/>
-<path class="f" d="M58 56l6 -6"/>
-<circle cx="82" cy="34" r="5"/>
-<path class="s" d="M79.5 34h5"/>
-<circle cx="102" cy="50" r="5"/>
-<path class="s" d="M99.5 50h5M102 47.5v5"/>
-<circle cx="84" cy="56" r="5"/>
-<path class="s" d="M81.5 56h5"/>
-<circle cx="118" cy="36" r="5"/>
-<path class="s" d="M115.5 36h5M118 33.5v5"/>
+<rect x="416" y="24" width="10" height="40" rx="1"/>
+<path class="f" d="M418 32l6 -6"/>
+<path class="f" d="M418 40l6 -6"/>
+<path class="f" d="M418 48l6 -6"/>
+<path class="f" d="M418 56l6 -6"/>
+<circle cx="442" cy="34" r="5"/>
+<path class="s" d="M439.5 34h5"/>
+<circle cx="462" cy="50" r="5"/>
+<path class="s" d="M459.5 50h5M462 47.5v5"/>
+<circle cx="444" cy="56" r="5"/>
+<path class="s" d="M441.5 56h5"/>
+<circle cx="478" cy="36" r="5"/>
+<path class="s" d="M475.5 36h5M478 33.5v5"/>
 <circle cx="240" cy="56" r="5"/>
 <circle cx="252" cy="56" r="5"/>
 <circle cx="264" cy="56" r="5"/>
@@ -29,8 +29,8 @@
 <circle class="s" cx="290" cy="38" r="3"/>
 <circle class="s" cx="296" cy="28" r="2.2"/>
 <circle class="s" cx="292" cy="20" r="1.6"/>
-<path class="s" d="M444.7 49.0 L436.0 54.0 L427.3 49.0 L427.3 39.0 L436.0 34.0 L444.7 39.0Z"/>
-<path class="s" d="M444.7 39l9 -5 9 5 9 -5M462.7 44v9"/><circle class="s" cx="472.7" cy="34" r="3"/><circle class="s" cx="462.7" cy="56" r="3"/>
+<path class="s" d="M84.7 49.0 L76.0 54.0 L67.3 49.0 L67.3 39.0 L76.0 34.0 L84.7 39.0Z"/>
+<path class="s" d="M84.7 39l9 -5 9 5 9 -5M102.7 44v9"/><circle class="s" cx="112.7" cy="34" r="3"/><circle class="s" cx="102.7" cy="56" r="3"/>
 <circle cx="600" cy="30" r="3.4"/>
 <circle cx="600" cy="44" r="3.4"/>
 <circle cx="600" cy="58" r="3.4"/>
