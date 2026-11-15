@@ -1,74 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 380" width="880" height="380" fill="none" stroke="#8b949e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-<title>Physics from DFT to full cells, many kinds of input, one symmetry-aware core, outputs that stay true under rotation, all trained from pretraining to on-policy RL on GPUs</title>
+<title>Interfaces, surfaces, molecules and crystals, many kinds of input, one symmetry-aware core, outputs that stay true under rotation, all trained from pretraining to on-policy RL on GPUs</title>
 <style>.l{font:10px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e;stroke:none}.h{font-size:9px;letter-spacing:1.5px;opacity:.75}.s{stroke-width:1.1}.f{stroke-width:1}.d{stroke-dasharray:2 5;animation:flow 6s linear infinite}.g{opacity:.55}@keyframes flow{to{stroke-dashoffset:-70}}@media (prefers-reduced-motion:reduce){.d{animation:none}}</style>
-<text class="l h" x="20" y="22" text-anchor="start">PHYSICS</text>
-<circle cx="70" cy="52" r="2.2"/><ellipse class="s" cx="70" cy="52" rx="17" ry="6.5"/><ellipse class="s" cx="70" cy="52" rx="17" ry="6.5" transform="rotate(60 70 52)"/><ellipse class="s" cx="70" cy="52" rx="17" ry="6.5" transform="rotate(-60 70 52)"/>
-<circle cx="159" cy="56" r="4"/><path class="s" d="M154.8 52.4l-7 -6"/>
-<circle cx="172" cy="44" r="4"/><path class="s" d="M176.8 42.2l8 -3"/>
-<circle cx="179" cy="60" r="4"/><path class="s" d="M182.6 63.6l6 6"/>
-<circle class="f" cx="255" cy="42" r="1.6"/>
-<circle class="f" cx="255" cy="52" r="1.6"/>
-<circle class="f" cx="255" cy="62" r="1.6"/>
-<circle class="f" cx="265" cy="42" r="1.6"/>
-<circle class="f" cx="265" cy="52" r="1.6"/>
-<circle class="f" cx="265" cy="62" r="1.6"/>
-<circle class="f" cx="275" cy="42" r="1.6"/>
-<circle class="f" cx="275" cy="52" r="1.6"/>
-<circle class="f" cx="275" cy="62" r="1.6"/>
-<circle class="f" cx="285" cy="42" r="1.6"/>
-<circle class="f" cx="285" cy="52" r="1.6"/>
-<circle class="f" cx="285" cy="62" r="1.6"/>
-<circle cx="265" cy="52" r="3.6"/><path class="s" d="M267 47q6 -10 12 -5"/><path class="s" d="m279 40l0 3 3 0" transform="rotate(10 279 42)"/>
-<path d="M348 37v30M392 37v30"/><path class="f" stroke-dasharray="2 3" d="M392 37v30"/>
-<circle class="s" cx="355" cy="42" r="4"/>
-<circle class="s" cx="355" cy="52" r="4"/>
-<circle class="s" cx="355" cy="62" r="4"/>
-<circle class="s" cx="365" cy="42" r="4"/>
-<circle class="s" cx="365" cy="52" r="4"/>
-<circle class="s" cx="365" cy="62" r="4"/>
-<circle class="s" cx="375" cy="42" r="4"/>
-<circle class="s" cx="375" cy="52" r="4"/>
-<circle class="s" cx="375" cy="62" r="4"/>
-<circle class="s" cx="385" cy="42" r="4"/>
-<circle class="s" cx="385" cy="52" r="4"/>
-<circle class="s" cx="385" cy="62" r="4"/>
-<path d="M454 46h22v18h-22zM454 46l10 -8h22l-10 8M486 38v18l-10 8"/><path class="f" d="M460 46v18M466 46v18M472 46v18"/>
-<text class="l" x="70" y="84" text-anchor="middle">DFT</text>
-<path class="s" d="M100 52h40"/><path class="s" d="m136 48.5l4 3.5-4 3.5"/>
-<text class="l" x="170" y="84" text-anchor="middle">MD</text>
-<path class="s" d="M200 52h40"/><path class="s" d="m236 48.5l4 3.5-4 3.5"/>
-<text class="l" x="270" y="84" text-anchor="middle">kMC</text>
-<path class="s" d="M300 52h40"/><path class="s" d="m336 48.5l4 3.5-4 3.5"/>
-<text class="l" x="370" y="84" text-anchor="middle">P2D</text>
-<path class="s" d="M400 52h40"/><path class="s" d="m436 48.5l4 3.5-4 3.5"/>
-<text class="l" x="470" y="84" text-anchor="middle">3D</text>
-<rect x="600" y="30" width="14" height="44" rx="1"/>
-<path class="f" d="M602 38l10 -8"/>
-<path class="f" d="M602 46l10 -8"/>
-<path class="f" d="M602 54l10 -8"/>
-<path class="f" d="M602 62l10 -8"/>
-<path class="f" d="M602 70l10 -8"/>
-<circle cx="630" cy="38" r="5.5"/>
-<path class="s" d="M627.5 38h5"/>
-<circle cx="652" cy="56" r="5.5"/>
-<path class="s" d="M649.5 56h5M652 53.5v5"/>
-<circle cx="630" cy="64" r="5.5"/>
-<path class="s" d="M627.5 64h5"/>
-<circle cx="680" cy="40" r="5.5"/>
-<path class="s" d="M677.5 40h5M680 37.5v5"/>
-<circle cx="704" cy="62" r="5.5"/>
-<path class="s" d="M701.5 62h5"/>
-<circle cx="728" cy="46" r="5.5"/>
-<path class="s" d="M725.5 46h5M728 43.5v5"/>
-<circle cx="750" cy="66" r="5.5"/>
-<path class="s" d="M747.5 66h5"/>
-<circle class="f" cx="691.3" cy="44.1" r="2"/>
-<circle class="f" cx="679.6" cy="52.0" r="2"/>
-<circle class="f" cx="668.5" cy="43.3" r="2"/>
-<circle class="f" cx="673.3" cy="30.1" r="2"/>
-<circle class="f" cx="687.4" cy="30.5" r="2"/>
-<path class="f g" stroke-dasharray="1 4" d="M620 28v48"/>
-<text class="l" x="692" y="84" text-anchor="middle">electrode | electrolyte</text>
+<rect x="56" y="24" width="10" height="40" rx="1"/>
+<path class="f" d="M58 32l6 -6"/>
+<path class="f" d="M58 40l6 -6"/>
+<path class="f" d="M58 48l6 -6"/>
+<path class="f" d="M58 56l6 -6"/>
+<circle cx="82" cy="34" r="5"/>
+<path class="s" d="M79.5 34h5"/>
+<circle cx="102" cy="50" r="5"/>
+<path class="s" d="M99.5 50h5M102 47.5v5"/>
+<circle cx="84" cy="56" r="5"/>
+<path class="s" d="M81.5 56h5"/>
+<circle cx="118" cy="36" r="5"/>
+<path class="s" d="M115.5 36h5M118 33.5v5"/>
+<circle cx="240" cy="56" r="5"/>
+<circle cx="252" cy="56" r="5"/>
+<circle cx="264" cy="56" r="5"/>
+<circle cx="276" cy="56" r="5"/>
+<circle cx="288" cy="56" r="5"/>
+<circle cx="300" cy="56" r="5"/>
+<circle class="f g" cx="246" cy="65" r="4"/>
+<circle class="f g" cx="258" cy="65" r="4"/>
+<circle class="f g" cx="270" cy="65" r="4"/>
+<circle class="f g" cx="282" cy="65" r="4"/>
+<circle class="f g" cx="294" cy="65" r="4"/>
+<circle cx="264" cy="42" r="3.6"/><circle cx="274" cy="36" r="3"/><path class="s" d="M264 46v5M267 40l5 -3"/>
+<circle class="s" cx="290" cy="38" r="3"/>
+<circle class="s" cx="296" cy="28" r="2.2"/>
+<circle class="s" cx="292" cy="20" r="1.6"/>
+<path class="s" d="M444.7 49.0 L436.0 54.0 L427.3 49.0 L427.3 39.0 L436.0 34.0 L444.7 39.0Z"/>
+<path class="s" d="M444.7 39l9 -5 9 5 9 -5M462.7 44v9"/><circle class="s" cx="472.7" cy="34" r="3"/><circle class="s" cx="462.7" cy="56" r="3"/>
+<circle cx="600" cy="30" r="3.4"/>
+<circle cx="600" cy="44" r="3.4"/>
+<circle cx="600" cy="58" r="3.4"/>
+<circle cx="614" cy="30" r="3.4"/>
+<circle cx="614" cy="44" r="3.4"/>
+<circle cx="614" cy="58" r="3.4"/>
+<circle cx="628" cy="30" r="3.4"/>
+<circle cx="628" cy="44" r="3.4"/>
+<circle cx="628" cy="58" r="3.4"/>
+<path class="f" d="M603.4 30h7.2M617.4 30h7.2M600 33.4v7.2M600 47.4v7.2"/>
+<path class="f" d="M603.4 44h7.2M617.4 44h7.2M614 33.4v7.2M614 47.4v7.2"/>
+<path class="f" d="M603.4 58h7.2M617.4 58h7.2M628 33.4v7.2M628 47.4v7.2"/>
+<path d="M642 30h22M642 56h22"/><path class="f" stroke-dasharray="2 3" d="M653 34v18"/>
+<text class="l" x="860" y="40" text-anchor="end">DFT · MD · kMC</text>
+<text class="l" x="860" y="56" text-anchor="end">continuum · 3D</text>
+<path class="f g" d="M768 68h92M768 65v6M860 65v6"/>
+<text class="l" x="814" y="80" text-anchor="middle">Å to device</text>
 <text class="l h" x="20" y="98" text-anchor="start">SEE</text>
 <text class="l h" x="530" y="98" text-anchor="start">PREDICT</text>
 <rect x="40" y="107.0" width="90" height="30" rx="3"/>
