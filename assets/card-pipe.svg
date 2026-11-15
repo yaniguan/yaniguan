@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 62" width="200" height="62"><style>.n{font:600 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:#24292f}.c{font:11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e}.h{font:10px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e;letter-spacing:2px}@media (prefers-color-scheme:dark){.n{fill:#e6edf3}}</style>
+<rect x="0.75" y="0.75" width="198.5" height="60.5" rx="8" fill="none" stroke="#8b949e" stroke-opacity=".45"/>
+<svg x="12" y="19" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  
+  <rect x="5.5" y="5.5" width="13" height="13" rx="1.5"/>
+  <rect x="9" y="9" width="6" height="6" rx=".6"/>
+  <path d="M9 2.5v3M12 2.5v3M15 2.5v3M9 18.5v3M12 18.5v3M15 18.5v3"/>
+  <path d="M2.5 9h3M2.5 12h3M2.5 15h3M18.5 9h3M18.5 12h3M18.5 15h3"/>
+</svg>
+<text class="n" x="46" y="28">automated pipelines</text><text class="c" x="46" y="46">DFT · force field · MD</text></svg>

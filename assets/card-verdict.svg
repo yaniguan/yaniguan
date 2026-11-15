@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 62" width="200" height="62"><style>.n{font:600 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:#24292f}.c{font:11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e}.h{font:10px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e;letter-spacing:2px}@media (prefers-color-scheme:dark){.n{fill:#e6edf3}}</style>
+<rect x="0.75" y="0.75" width="198.5" height="60.5" rx="8" fill="none" stroke="#8b949e" stroke-opacity=".45"/>
+<svg x="12" y="19" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  
+  <rect x="1.8" y="7" width="5.6" height="10" rx=".8"/>
+  <rect x="9.2" y="7" width="5.6" height="10" rx=".8"/>
+  <rect x="16.6" y="7" width="5.6" height="10" rx=".8"/>
+  <path d="m3.2 12 1.3 1.3 1.9-2.4M10.6 12l1.3 1.3 1.9-2.4"/>
+  <path d="m18 10.6 2.8 2.8M20.8 10.6 18 13.4"/>
+  <path d="M1 20h22"/>
+</svg>
+<text class="n" x="46" y="28">VERDICT</text><text class="c" x="46" y="46">label-free QA · 0.916</text></svg>

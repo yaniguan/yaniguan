@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 62" width="200" height="62"><style>.n{font:600 14px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;fill:#24292f}.c{font:11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e}.h{font:10px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e;letter-spacing:2px}@media (prefers-color-scheme:dark){.n{fill:#e6edf3}}</style>
+<rect x="0.75" y="0.75" width="198.5" height="60.5" rx="8" fill="none" stroke="#8b949e" stroke-opacity=".45"/>
+<svg x="12" y="19" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  
+  <circle cx="12" cy="9" r="1.8"/><circle cx="8.6" cy="14.4" r="1.8"/><circle cx="15.4" cy="14.4" r="1.8"/>
+  <path d="M11.1 10.6 9.5 12.8M12.9 10.6l1.6 2.2M10.4 14.4h3.2"/>
+  <path d="M4.2 9.5A8.2 8.2 0 0 1 17.8 5.4"/><path d="M17.8 2.9v2.6h-2.6"/>
+  <path d="M19.8 14.5A8.2 8.2 0 0 1 6.2 18.6"/><path d="M6.2 21.1v-2.6h2.6"/>
+</svg>
+<text class="n" x="46" y="28">WignerFlow</text><text class="c" x="46" y="46">argon MD · 25.8 ns/day</text></svg>
