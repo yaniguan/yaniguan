@@ -1,53 +1,66 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 380" width="880" height="380" fill="none" stroke="#8b949e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 <title>Physics from DFT to full cells, many kinds of input, one symmetry-aware core, outputs that stay true under rotation, all trained from pretraining to on-policy RL on GPUs</title>
 <style>.l{font:10px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e;stroke:none}.h{font-size:9px;letter-spacing:1.5px;opacity:.75}.s{stroke-width:1.1}.f{stroke-width:1}.d{stroke-dasharray:2 5;animation:flow 6s linear infinite}.g{opacity:.55}@keyframes flow{to{stroke-dashoffset:-70}}@media (prefers-reduced-motion:reduce){.d{animation:none}}</style>
-<rect x="416" y="24" width="10" height="40" rx="1"/>
-<path class="f" d="M418 32l6 -6"/>
-<path class="f" d="M418 40l6 -6"/>
-<path class="f" d="M418 48l6 -6"/>
-<path class="f" d="M418 56l6 -6"/>
-<circle cx="442" cy="34" r="5"/>
-<path class="s" d="M439.5 34h5"/>
-<circle cx="462" cy="50" r="5"/>
-<path class="s" d="M459.5 50h5M462 47.5v5"/>
-<circle cx="444" cy="56" r="5"/>
-<path class="s" d="M441.5 56h5"/>
-<circle cx="478" cy="36" r="5"/>
-<path class="s" d="M475.5 36h5M478 33.5v5"/>
-<circle cx="240" cy="56" r="5"/>
-<circle cx="252" cy="56" r="5"/>
-<circle cx="264" cy="56" r="5"/>
-<circle cx="276" cy="56" r="5"/>
-<circle cx="288" cy="56" r="5"/>
-<circle cx="300" cy="56" r="5"/>
-<circle class="f g" cx="246" cy="65" r="4"/>
-<circle class="f g" cx="258" cy="65" r="4"/>
-<circle class="f g" cx="270" cy="65" r="4"/>
-<circle class="f g" cx="282" cy="65" r="4"/>
-<circle class="f g" cx="294" cy="65" r="4"/>
-<circle cx="264" cy="42" r="3.6"/><circle cx="274" cy="36" r="3"/><path class="s" d="M264 46v5M267 40l5 -3"/>
-<circle class="s" cx="290" cy="38" r="3"/>
-<circle class="s" cx="296" cy="28" r="2.2"/>
-<circle class="s" cx="292" cy="20" r="1.6"/>
-<path class="s" d="M84.7 49.0 L76.0 54.0 L67.3 49.0 L67.3 39.0 L76.0 34.0 L84.7 39.0Z"/>
-<path class="s" d="M84.7 39l9 -5 9 5 9 -5M102.7 44v9"/><circle class="s" cx="112.7" cy="34" r="3"/><circle class="s" cx="102.7" cy="56" r="3"/>
-<circle cx="600" cy="30" r="3.4"/>
-<circle cx="600" cy="44" r="3.4"/>
-<circle cx="600" cy="58" r="3.4"/>
-<circle cx="614" cy="30" r="3.4"/>
-<circle cx="614" cy="44" r="3.4"/>
-<circle cx="614" cy="58" r="3.4"/>
-<circle cx="628" cy="30" r="3.4"/>
-<circle cx="628" cy="44" r="3.4"/>
-<circle cx="628" cy="58" r="3.4"/>
-<path class="f" d="M603.4 30h7.2M617.4 30h7.2M600 33.4v7.2M600 47.4v7.2"/>
-<path class="f" d="M603.4 44h7.2M617.4 44h7.2M614 33.4v7.2M614 47.4v7.2"/>
-<path class="f" d="M603.4 58h7.2M617.4 58h7.2M628 33.4v7.2M628 47.4v7.2"/>
-<path d="M642 30h22M642 56h22"/><path class="f" stroke-dasharray="2 3" d="M653 34v18"/>
-<text class="l" x="860" y="40" text-anchor="end">DFT · MD · kMC</text>
-<text class="l" x="860" y="56" text-anchor="end">continuum · 3D</text>
-<path class="f g" d="M768 68h92M768 65v6M860 65v6"/>
-<text class="l" x="814" y="80" text-anchor="middle">Å to device</text>
+<text class="l h" x="20" y="22" text-anchor="start">PHYSICS</text>
+<path class="s" d="M58.7 51.0 L50.0 56.0 L41.3 51.0 L41.3 41.0 L50.0 36.0 L58.7 41.0Z"/>
+<path class="s" d="M58.7 41l9 -5 9 5M67.7 36v-7"/><circle class="s" cx="76.7" cy="41" r="3"/><circle class="s" cx="67.7" cy="26" r="2.6"/>
+<circle cx="114" cy="32" r="3.2"/>
+<circle cx="114" cy="46" r="3.2"/>
+<circle cx="114" cy="60" r="3.2"/>
+<circle cx="128" cy="32" r="3.2"/>
+<circle cx="128" cy="46" r="3.2"/>
+<circle cx="128" cy="60" r="3.2"/>
+<circle cx="142" cy="32" r="3.2"/>
+<circle cx="142" cy="46" r="3.2"/>
+<circle cx="142" cy="60" r="3.2"/>
+<path class="f" d="M117.2 32h7.6M131.2 32h7.6M114 35.2v7.6M114 49.2v7.6"/>
+<path class="f" d="M117.2 46h7.6M131.2 46h7.6M128 35.2v7.6M128 49.2v7.6"/>
+<path class="f" d="M117.2 60h7.6M131.2 60h7.6M142 35.2v7.6M142 49.2v7.6"/>
+<text class="l" x="96" y="82" text-anchor="middle">Å</text>
+<path class="s" d="M160 46h40"/><path class="s" d="m196 42.5 4 3.5-4 3.5"/>
+<circle cx="245" cy="46" r="5.5"/><path class="s" d="M242.5 46h5M245 43.5v5"/>
+<circle class="s" cx="259.5" cy="49.9" r="3"/><path class="f g" d="M251.8 47.8L256.1 49.0"/>
+<circle class="s" cx="248.9" cy="60.5" r="3"/><path class="f g" d="M246.8 52.8L248.0 57.1"/>
+<circle class="s" cx="234.4" cy="56.6" r="3"/><path class="f g" d="M240.1 50.9L236.9 54.1"/>
+<circle class="s" cx="230.5" cy="42.1" r="3"/><path class="f g" d="M238.2 44.2L233.9 43.0"/>
+<circle class="s" cx="241.1" cy="31.5" r="3"/><path class="f g" d="M243.2 39.2L242.0 34.9"/>
+<circle class="s" cx="255.6" cy="35.4" r="3"/><path class="f g" d="M249.9 41.1L253.1 37.9"/>
+<rect x="300" y="26" width="9" height="40" rx="1"/>
+<path class="f" d="M302 34l5 -5"/>
+<path class="f" d="M302 42l5 -5"/>
+<path class="f" d="M302 50l5 -5"/>
+<path class="f" d="M302 58l5 -5"/>
+<circle class="s" cx="319" cy="34" r="4.2"/><path class="f" d="M317 34h4"/>
+<circle class="s" cx="319" cy="48" r="4.2"/><path class="f" d="M317 48h4"/>
+<circle class="s" cx="319" cy="62" r="4.2"/><path class="f" d="M317 62h4"/>
+<circle class="s" cx="336" cy="42" r="4.2"/><path class="f" d="M334 42h4M336 40v4"/>
+<circle class="s" cx="338" cy="58" r="4.2"/><path class="f" d="M336 58h4M338 56v4"/>
+<circle cx="376" cy="58" r="5"/>
+<circle cx="388" cy="58" r="5"/>
+<circle cx="400" cy="58" r="5"/>
+<circle cx="412" cy="58" r="5"/>
+<circle cx="424" cy="58" r="5"/>
+<circle cx="396" cy="44" r="3.4"/><circle cx="405" cy="38" r="2.8"/><path class="s" d="M396 47.6v5.4M399 42l3.6 -2.4"/>
+<circle class="s" cx="418" cy="42" r="2.8"/>
+<circle class="s" cx="422" cy="32" r="2"/>
+<circle class="s" cx="419" cy="24" r="1.5"/>
+<path d="M456 54c-6 -22 10 -32 22 -26 8 -12 28 -2 22 14 6 10 -6 22 -18 16-10 8-24 4-26-4z"/>
+<path class="f g" d="M466 50c4 -6 10 -6 14 0s10 6 14 0"/>
+<circle class="s" cx="479" cy="40" r="2.6"/><circle class="s" cx="487" cy="44" r="2.6"/><path class="f" d="M481.4 41.2l3.4 1.6"/>
+<text class="l" x="360" y="82" text-anchor="middle">nm</text>
+<path class="s" d="M530 46h40"/><path class="s" d="m566 42.5 4 3.5-4 3.5"/>
+<ellipse cx="625" cy="46" rx="30" ry="20"/><ellipse class="s" cx="631" cy="47" rx="9" ry="7"/><circle class="f" cx="631" cy="47" r="2.4"/>
+<circle class="f g" cx="609" cy="40" r="1.8"/>
+<circle class="f g" cx="613" cy="55" r="1.8"/>
+<circle class="f g" cx="645" cy="37" r="1.8"/>
+<circle class="f g" cx="621" cy="34" r="1.8"/>
+<circle class="f g" cx="644" cy="56" r="1.8"/>
+<rect x="696" y="32" width="44" height="28" rx="3"/><rect class="s" x="740" y="41" width="5" height="10" rx="1"/>
+<path class="s" d="M705 46h7M724 46h7M727.5 42.5v7"/>
+<text class="l" x="672" y="82" text-anchor="middle">μm to device</text>
+<text class="l" x="860" y="40" text-anchor="end">SO(3) · irreps</text>
+<text class="l" x="860" y="54" text-anchor="end">Clebsch–Gordan</text>
+<text class="l" x="860" y="68" text-anchor="end">Yₗₘ</text>
 <text class="l h" x="20" y="98" text-anchor="start">SEE</text>
 <text class="l h" x="530" y="98" text-anchor="start">PREDICT</text>
 <rect x="40" y="107.0" width="90" height="30" rx="3"/>
