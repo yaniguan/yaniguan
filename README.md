@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" width="780" alt="Small biomolecules, catalyst surfaces, crystals and interfaces, from molecules to micro-environments to living cells and devices, feed many kinds of input into one symmetry-aware core. Out come SMILES, argon MD frames, a molecule that stays the same however it is turned, and a vote that flags wrong structures. Underneath: pretraining, SFT, DPO and on-policy RL, running on A100, H100 and H200 GPUs.">
+  <img src="assets/header.svg" width="780" alt="Small biomolecules, catalyst surfaces, crystals and interfaces, from molecules to micro-environments to living cells and devices, feed many kinds of input into one symmetry-aware core. Out come SMILES, argon MD frames, a molecule that stays the same however it is turned, and a vote that flags wrong structures. Underneath: pretraining, SFT, DPO and GRPO, running on A100, H100 and H200 GPUs.">
 </p>
 
 <p align="center"><b>I build AI that already knows the laws of physics, and I make it train fast.</b></p>

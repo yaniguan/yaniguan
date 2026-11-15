@@ -186,7 +186,7 @@
 <path class="f g" d="M490.8 306.0l6.9 -4.0"/>
 <path class="f g" d="M493.6 322.2l7.9 1.4"/>
 <text class="l" x="470" y="321.5" text-anchor="middle">RL</text>
-<text class="l" x="470" y="356" text-anchor="middle">PPO · GRPO rollouts</text>
+<text class="l" x="470" y="356" text-anchor="middle">GRPO rollouts</text>
 <path class="d g" d="M470 284C470 270 424 270 424 254"/>
 <rect x="560" y="300" width="300" height="44" rx="4"/>
 <path class="f" d="M574 295v5M574 344v5"/>
