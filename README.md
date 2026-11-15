@@ -20,7 +20,7 @@
   <tr>
     <td valign="top"><img src="assets/multiscale.svg" width="16"> <b>multi-scale physics</b><br><sub>DFT → MD → kMC → continuum</sub><br><br><img src="assets/gpu.svg" width="16"> <b>automated pipelines</b><br><sub>DFT → force field → MD</sub></td>
     <td valign="top"><img src="assets/ouroboros.svg" width="16"> <a href="https://github.com/yaniguan/ouroboros-ocsr"><b>ouroboros-ocsr</b></a><br><sub>image → SMILES · 54.0%</sub><br><br><img src="assets/verdict.svg" width="16"> <a href="https://arxiv.org/abs/2608.22183"><b>VERDICT</b></a><br><sub>label-free QA · 0.916 AUROC</sub></td>
-    <td valign="top"><img src="assets/wignerflow.svg" width="16"> <a href="https://github.com/yaniguan/WignerFlow"><b>WignerFlow</b></a><br><sub>equivariant MD · 25.8 ns/day</sub><br><br><img src="assets/ylm.svg" width="16"> <a href="https://github.com/yaniguan/YLM"><b>YLM</b></a><br><sub>3D-aware LM · &lt;1e-9 equiv. error</sub></td>
+    <td valign="top"><img src="assets/wignerflow.svg" width="16"> <a href="https://github.com/yaniguan/WignerFlow"><b>WignerFlow</b></a><br><sub>argon MD · 25.8 ns/day</sub><br><br><img src="assets/ylm.svg" width="16"> <a href="https://github.com/yaniguan/YLM"><b>YLM</b></a><br><sub>3D-aware LM · &lt;1e-9 equiv. error</sub></td>
     <td valign="top"><img src="assets/labbench.svg" width="16"> <a href="https://github.com/yaniguan/labbench-posttrain"><b>labbench-posttrain</b></a><br><sub>lab-protocol RL · 49,139 records</sub><br><br><img src="assets/gpu.svg" width="16"> <a href="https://github.com/yaniguan/equivariant-gpu-lab"><b>equivariant-gpu-lab</b></a><br><sub>GPU roofline · A100 → H100</sub></td>
   </tr>
 </table>
