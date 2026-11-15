@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Multi-scale modeling: atoms to cells</title>
+  <circle cx="4" cy="6" r="1.4"/><circle cx="8" cy="6" r="1.4"/><circle cx="6" cy="9.4" r="1.4"/>
+  <path d="M11 7.5h2.2M12.3 6.4l1.1 1.1-1.1 1.1"/>
+  <rect x="15" y="3.5" width="6.5" height="8" rx="1"/><path d="M15 6.2h6.5M15 8.8h6.5"/>
+  <path d="M2 19c2.5-4 4.5-4 7 0s4.5 4 7 0 4.5-4 6 -1"/>
+</svg>
