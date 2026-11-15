@@ -2,7 +2,7 @@
   <img src="assets/header.svg" width="780" alt="Physics from DFT to full cells feeds many kinds of input into one symmetry-aware core. Out come SMILES, argon MD frames, a molecule that stays the same however it is turned, and a vote that flags wrong structures. Underneath: pretraining, SFT, DPO and on-policy RL, running on A100, H100 and H200 GPUs.">
 </p>
 
-<p align="center"><b>Rotate a molecule and it's still the same molecule. I build models that know this from the start, and make them train fast.</b></p>
+<p align="center"><b>I build AI that already knows the laws of physics, and I make it train fast.</b></p>
 
 <p align="center"><sub>Ph.D. at UCLA, done December 2026 &nbsp;·&nbsp; molecules, materials, electrochemical interfaces &nbsp;·&nbsp; DFT → MD → kMC → P2D → 3D</sub></p>
 
@@ -52,7 +52,7 @@ I pretrain equivariant foundation models for molecules and electrolytes, and I c
 
 <img src="assets/posttrain.svg" width="18" align="top"> **On post-training.** SFT and DPO learn from the textbook; on-policy RL (PPO, GRPO) leaves it and learns from its own rollouts. And when DPO pushed preference accuracy to 90–97% but dropped exact match on 331 journal figures from 59.8% to 0–2%, I kept SFT.
 
-<img src="assets/road.svg" width="18" align="top"> <img src="assets/paw.svg" width="18" align="top"> <img src="assets/camera.svg" width="18" align="top"> <img src="assets/book.svg" width="18" align="top"> &nbsp;Off the clock: a very long drive to a very empty place, my partner riding shotgun, my dog in charge of the back seat, a Canon R5 and a 6D Mark II for the light, and Shakespeare to remind me there are more things in heaven and earth than are dreamt of in any loss function.
+<img src="assets/road.svg" width="18" align="top"> <img src="assets/paw.svg" width="18" align="top"> <img src="assets/camera.svg" width="18" align="top"> <img src="assets/book.svg" width="18" align="top"> &nbsp;Off the clock: long empty roads, my dog running the back seat, two Canons, and more things in heaven and earth than any loss function.
 
 <br>
 
