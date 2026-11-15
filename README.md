@@ -12,10 +12,16 @@
 
 <table>
   <tr>
-    <td width="25%" valign="top"><sub>SIMULATE</sub><br><br><img src="assets/multiscale.svg" width="20" align="top"> <b>multi-scale physics</b><br><sub>DFT · force fields · MD · kMC · continuum</sub><br><b>Å → device</b> <sub>one stack</sub><br><br><img src="assets/gpu.svg" width="20" align="top"> <b>automated pipelines</b><br><sub>DFT sampling → force-field fit → MD</sub><br><b>end to end</b> <sub>automated</sub></td>
-    <td width="25%" valign="top"><sub>SEE</sub><br><br><img src="assets/ouroboros.svg" width="20" align="top"> <a href="https://github.com/yaniguan/ouroboros-ocsr"><b>ouroboros-ocsr</b></a><br><sub>molecule images to SMILES</sub><br><b>54.0%</b> <sub>exact match</sub><br><br><img src="assets/verdict.svg" width="20" align="top"> <a href="https://arxiv.org/abs/2608.22183"><b>VERDICT</b></a><br><sub>label-free error flags</sub><br><b>0.916</b> <sub>AUROC</sub></td>
-    <td width="25%" valign="top"><sub>MODEL</sub><br><br><img src="assets/wignerflow.svg" width="20" align="top"> <a href="https://github.com/yaniguan/WignerFlow"><b>WignerFlow</b></a><br><sub>equivariant MD, argon so far</sub><br><b>25.8 ns/day</b> <sub>one A100</sub><br><br><img src="assets/ylm.svg" width="20" align="top"> <a href="https://github.com/yaniguan/YLM"><b>YLM</b></a><br><sub>a language model that reads 3D</sub><br><b>&lt; 1e-9</b> <sub>equivariance error</sub></td>
-    <td width="25%" valign="top"><sub>TRAIN</sub><br><br><img src="assets/labbench.svg" width="20" align="top"> <a href="https://github.com/yaniguan/labbench-posttrain"><b>labbench-posttrain</b></a><br><sub>RL from wet-lab protocols</sub><br><b>49,139</b> <sub>records</sub><br><br><img src="assets/gpu.svg" width="20" align="top"> <a href="https://github.com/yaniguan/equivariant-gpu-lab"><b>equivariant-gpu-lab</b></a><br><sub>equivariance meets the GPU</sub><br><b>A100 → H100</b> <sub>roofline</sub></td>
+    <th width="25%" align="left"><sub>SIMULATE</sub></th>
+    <th width="25%" align="left"><sub>SEE</sub></th>
+    <th width="25%" align="left"><sub>MODEL</sub></th>
+    <th width="25%" align="left"><sub>TRAIN</sub></th>
+  </tr>
+  <tr>
+    <td valign="top"><img src="assets/multiscale.svg" width="16"> <b>multi-scale physics</b><br><sub>DFT → MD → kMC → continuum</sub><br><br><img src="assets/gpu.svg" width="16"> <b>automated pipelines</b><br><sub>DFT → force field → MD</sub></td>
+    <td valign="top"><img src="assets/ouroboros.svg" width="16"> <a href="https://github.com/yaniguan/ouroboros-ocsr"><b>ouroboros-ocsr</b></a><br><sub>image → SMILES · 54.0%</sub><br><br><img src="assets/verdict.svg" width="16"> <a href="https://arxiv.org/abs/2608.22183"><b>VERDICT</b></a><br><sub>label-free QA · 0.916 AUROC</sub></td>
+    <td valign="top"><img src="assets/wignerflow.svg" width="16"> <a href="https://github.com/yaniguan/WignerFlow"><b>WignerFlow</b></a><br><sub>equivariant MD · 25.8 ns/day</sub><br><br><img src="assets/ylm.svg" width="16"> <a href="https://github.com/yaniguan/YLM"><b>YLM</b></a><br><sub>3D-aware LM · &lt;1e-9 equiv. error</sub></td>
+    <td valign="top"><img src="assets/labbench.svg" width="16"> <a href="https://github.com/yaniguan/labbench-posttrain"><b>labbench-posttrain</b></a><br><sub>lab-protocol RL · 49,139 records</sub><br><br><img src="assets/gpu.svg" width="16"> <a href="https://github.com/yaniguan/equivariant-gpu-lab"><b>equivariant-gpu-lab</b></a><br><sub>GPU roofline · A100 → H100</sub></td>
   </tr>
 </table>
 
