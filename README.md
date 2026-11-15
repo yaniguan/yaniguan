@@ -8,7 +8,7 @@
 
 <br>
 
-I pretrain equivariant foundation models for molecules and electrolytes, and I care just as much about the hardware: training pipelines on A100, H100 and H200, profiled with Nsight, tuned with FP8, cuEquivariance and torch.compile. Lately: post-training, alignment, and multimodal models for science.
+I pretrain equivariant foundation models for molecules and electrolytes, and I care just as much about the hardware: training pipelines on A100, H100 and H200, profiled with Nsight and tuned down to FP8. Lately: post-training, alignment, and multimodal models for science.
 
 <br>
 
