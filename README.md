@@ -1,42 +1,59 @@
 <p align="center">
-  <img src="assets/header.svg" width="560" alt="Text, drawings and atoms flowing into one symmetry-aware model; the same molecule comes out, just held three different ways">
+  <img src="assets/header.svg" width="780" alt="Physics from DFT to full cells feeds many kinds of input into one symmetry-aware core. Out come SMILES, argon MD frames, a molecule that stays the same however it is turned, and a vote that flags wrong structures. Underneath: pretraining, SFT, DPO and on-policy RL, running on A100, H100 and H200 GPUs.">
 </p>
 
-### Hi, I'm Yani. I build AI that respects physics, and I make it train fast.
+<p align="center"><b>Rotate a molecule and it's still the same molecule. I build models that know this from the start, and make them train fast.</b></p>
 
-Rotate a water molecule and it's still water. Charge an electrode and the whole interface rearranges. Most models have to learn the rules of nature the hard way. I build ones that know them from the start: molecules, materials, electrochemical interfaces, and the dynamics in between.
+<p align="center"><sub>Ph.D. at UCLA, done December 2026 &nbsp;·&nbsp; molecules, materials, electrochemical interfaces &nbsp;·&nbsp; DFT → MD → kMC → P2D → 3D</sub></p>
 
-I'm a Ph.D. candidate in computational chemistry at UCLA (done December 2026). These days I'm drawn to LLM/VLM pretraining, post-training, alignment, and multimodal models for science.
+<br>
 
-<img src="assets/multiscale.svg" width="18" align="top"> **Scientist by training.** A chemical engineering Ph.D. spent on multi-scale modeling of electrochemical systems (DFT → MD → kMC → P2D → 3D simulation). Irreps, Clebsch–Gordan and spherical harmonics are my everyday tools.
+I pretrain equivariant foundation models for molecules and electrolytes, and I care just as much about the hardware: training pipelines on A100, H100 and H200, profiled with Nsight, tuned with FP8, cuEquivariance and torch.compile. Lately: post-training, alignment, and multimodal models for science.
 
-<img src="assets/gpu.svg" width="18" align="top"> **Engineer by habit.** I build and tune GPU training pipelines on A100, H100 and H200. I profile with Nsight, read rooflines, and reach for FP8, cuEquivariance and torch.compile when a model is slower than it should be.
+<br>
 
-<img src="assets/posttrain.svg" width="18" align="top"> **Post-training, the big picture.** Offline SFT and DPO teach a model from the textbook. But under SFT, small errors pile up once the model runs on its own. On-policy RL (PPO, GRPO) fixes that with rollouts: the model leaves the textbook, tries things itself, and learns from what actually happens. A lot like life.
+<table>
+  <tr><th colspan="3" align="left"><sub>SEE &nbsp;·&nbsp; read the world as it is drawn</sub></th></tr>
+  <tr>
+    <td><img src="assets/ouroboros.svg" width="22"> <a href="https://github.com/yaniguan/ouroboros-ocsr"><b>ouroboros-ocsr</b></a></td>
+    <td>Picture → SMILES. A C<sub>N</sub> steerable encoder that handles rotations but not mirrors, because a mirror flips stereocenters.</td>
+    <td align="right"><b>54.0%</b><br><sub>exact match, 298 real figures</sub></td>
+  </tr>
+  <tr>
+    <td><img src="assets/verdict.svg" width="22"> <b>VERDICT</b><br><sub><a href="https://arxiv.org/abs/2608.22183">arXiv:2608.22183</a></sub></td>
+    <td>Four structure recognizers vote. Disagreement flags a wrong structure, no labels needed.</td>
+    <td align="right"><b>0.916</b><br><sub>AUROC</sub></td>
+  </tr>
+  <tr><th colspan="3" align="left"><sub>MODEL &nbsp;·&nbsp; physics built in, not learned the hard way</sub></th></tr>
+  <tr>
+    <td><img src="assets/wignerflow.svg" width="22"> <a href="https://github.com/yaniguan/WignerFlow"><b>WignerFlow</b></a></td>
+    <td>An E(3)-equivariant transformer that replaces the MD integrator, 50 fs per step. Public results are argon only, and I say so up front.</td>
+    <td align="right"><b>25.8 ns/day</b><br><sub>argon, one A100</sub></td>
+  </tr>
+  <tr>
+    <td><img src="assets/ylm.svg" width="22"> <a href="https://github.com/yaniguan/YLM"><b>YLM</b></a></td>
+    <td>A language model that reads 3D. Text attends to l ≥ 1 irreps via Clebsch–Gordan, so forces and handedness survive rotation.</td>
+    <td align="right"><b>&lt; 1e-9</b><br><sub>equivariance error, fp64</sub></td>
+  </tr>
+  <tr><th colspan="3" align="left"><sub>TRAIN &nbsp;·&nbsp; make it learn, make it run fast</sub></th></tr>
+  <tr>
+    <td><img src="assets/labbench.svg" width="22"> <a href="https://github.com/yaniguan/labbench-posttrain"><b>labbench-posttrain</b></a></td>
+    <td>LAB-Bench evals and RL environments from lab protocols, with verifiable rewards and an audit for reward cheating.</td>
+    <td align="right"><b>49,139</b><br><sub>records, 20 sources</sub></td>
+  </tr>
+  <tr>
+    <td><img src="assets/gpu.svg" width="22"> <a href="https://github.com/yaniguan/equivariant-gpu-lab"><b>equivariant-gpu-lab</b></a></td>
+    <td>Equivariant models meet the hardware: roofline, Morton-order graph locality, FP8 spherical scaling.</td>
+    <td align="right"><b>A100 → H100</b><br><sub>roofline</sub></td>
+  </tr>
+</table>
 
-#### The cast
+<br>
 
-| | | |
-|:-:|---|---|
-| <img src="assets/wignerflow.svg" width="22"> | **[WignerFlow](https://github.com/yaniguan/WignerFlow)** | An E(3)-equivariant transformer that *writes* MD trajectories autoregressively, so it replaces the integrator. Public results so far are argon only, and I say so up front. |
-| <img src="assets/ylm.svg" width="22"> | **[YLM](https://github.com/yaniguan/YLM)** | A language model that understands 3D. Text tokens attend to l ≥ 1 irreps through Clebsch–Gordan products, so directions, forces and handedness survive rotation. Equivariance error < 1e-9 in fp64. |
-| <img src="assets/ouroboros.svg" width="22"> | **[ouroboros-ocsr](https://github.com/yaniguan/ouroboros-ocsr)** | Picture → SMILES with a C<sub>N</sub> steerable CNN encoder. It handles rotations and deliberately *not* reflections, because a mirror image flips stereocenters. |
-| <img src="assets/verdict.svg" width="22"> | **VERDICT** · [arXiv:2608.22183](https://arxiv.org/abs/2608.22183) | Four structure recognizers vote, and when they disagree that flags a wrong structure. No labels needed. AUROC 0.916; chemists rated 400 released labels at 0.995 precision. |
-| <img src="assets/labbench.svg" width="22"> | **[labbench-posttrain](https://github.com/yaniguan/labbench-posttrain)** | A LAB-Bench eval harness plus RL environments built from lab protocols. Rewards are verifiable, and there's an audit that checks whether the model found a way to cheat them. |
-| <img src="assets/gpu.svg" width="22"> | **[equivariant-gpu-lab](https://github.com/yaniguan/equivariant-gpu-lab)** | Where the physics meets the hardware: roofline analysis of O(3)-equivariant models, Morton-order graph locality, FP8 spherical scaling. |
+<img src="assets/posttrain.svg" width="18" align="top"> **On post-training.** SFT and DPO learn from the textbook; on-policy RL (PPO, GRPO) leaves it and learns from its own rollouts. And when DPO pushed preference accuracy to 90–97% but dropped exact match on 331 journal figures from 59.8% to 0–2%, I kept SFT.
 
-#### <img src="assets/posttrain.svg" width="20" align="top"> The plot twist
+<img src="assets/road.svg" width="18" align="top"> <img src="assets/paw.svg" width="18" align="top"> <img src="assets/camera.svg" width="18" align="top"> <img src="assets/book.svg" width="18" align="top"> &nbsp;Off the clock: a very long drive to a very empty place, my partner riding shotgun, my dog in charge of the back seat, a Canon R5 and a 6D Mark II for the light, and Shakespeare to remind me there are more things in heaven and earth than are dreamt of in any loss function.
 
-On image-to-SMILES I ran LoRA SFT on three open VLMs and got **59.8%** exact match on 331 journal figures (MolScribe gets 58.3%). Then DPO pushed preference accuracy to **90–97%**, and exact match dropped to **0–2%**.
+<br>
 
-The DPO numbers looked great on paper. **I kept SFT.** The model had gotten good at being preferred and stopped getting the molecule right, and I'd rather ship the version that's actually correct.
-
-<sub>Same habit, smaller scale: when e3nn or NVIDIA NeMo RL break, I file the bug upstream.</sub>
-
-#### Intermission
-
-<img src="assets/camera.svg" width="18" align="top"> a Canon R5 and a 6D Mark II &nbsp;·&nbsp;
-<img src="assets/book.svg" width="18" align="top"> Shakespeare (*"there are more things in heaven and earth…"*) &nbsp;·&nbsp;
-<img src="assets/road.svg" width="18" align="top"> very long drives to very empty places
-
-<img src="assets/home.svg" width="18" align="top"> More at **[yaniguan.github.io](https://yaniguan.github.io)**
+<img src="assets/home.svg" width="18" align="top"> [yaniguan.github.io](https://yaniguan.github.io)
