@@ -4,7 +4,7 @@
 
 ### Hi, I'm Yani. I build AI that respects physics, and I make it train fast.
 
-Rotate a water molecule and it's still water. Flip the sign on an electrode and the interface tells a different story. Most models have to learn the rules of nature the hard way. I build ones that know them from the start: molecules, materials, electrochemical interfaces, and the dynamics in between.
+Rotate a water molecule and it's still water. Charge an electrode and the whole interface rearranges. Most models have to learn the rules of nature the hard way. I build ones that know them from the start: molecules, materials, electrochemical interfaces, and the dynamics in between.
 
 I'm a Ph.D. candidate in computational chemistry at UCLA (done December 2026). These days I'm drawn to LLM/VLM pretraining, post-training, alignment, and multimodal models for science.
 
